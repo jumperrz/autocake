@@ -1,1 +1,9 @@
-{ "dependencies": { "inquirer": "^9.2.11", "openai-agent": "^1.6.0", "typescript": "^5.2.2" } }
+{ "dependencies": { "commander": "^11.0.0", "inquirer": "^9.2.11", "openai-agent": "^1.6.0", "typescript": "^5.2.2" }, 
+"scripts": {
+  "start": "bun ./src/main.ts",
+  "test": "bun test"
+}, "name": "automatic-pancake", "module": "./src/main.ts", "type": "module", "devDependencies": {
+  "bun-types": "latest"
+}, "peerDependencies": {
+  "typescript": "^5.0.0"
+} }
